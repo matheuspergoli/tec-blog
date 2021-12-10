@@ -1,0 +1,97 @@
+.white {
+    color: white;
+}
+
+.black {
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.orange {
+    color: rgb(255, 187, 0);
+}
+
+.cursor {
+    cursor: default;
+}
+
+.noticia {
+    box-sizing: border-box;
+    background-color: white;
+    min-width: 320px;
+    max-width: 680px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    padding: 20px;
+    border-radius: 3px;
+    text-align: justify;
+}
+
+.imagem {
+    width: 100%;
+}
+
+.linha {
+    margin: 10px;
+    border: 0.5px solid rgba(204, 204, 204, 0.514);
+}
+
+.data-postagem {
+    font-size: 13px;
+}
+
+.link {
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.postagem-recente {
+    background-color: white;
+    box-sizing: border-box;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    border-radius: 3px;
+    text-align: justify;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: translateX(30%);
+}
+
+.categorias {
+    background-color: white;
+    box-sizing: border-box;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    border-radius: 3px;
+    text-align: justify;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: translateX(30%) translateY(110%);
+}
+
+.postagem-h3 {
+    background-color: rgba(128, 128, 128, 0.589);
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 8px;
+}
